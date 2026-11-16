@@ -7,6 +7,6 @@ public class Funciones2 {
 	}
 	
 	public static int dividir(int a, int b) {
-		return a / b;
+		return a / b; 
 	}
 }
