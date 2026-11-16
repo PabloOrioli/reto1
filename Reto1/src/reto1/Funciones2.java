@@ -10,7 +10,7 @@ public class Funciones2 {
 		return a / b;  
 	}
 	
-	public static boolean impar(int n1) {
+	public static boolean esImpar(int n1) {
 		if (n1 % 2 != 0) {
 			return true;
 			
@@ -18,5 +18,13 @@ public class Funciones2 {
 			return false;
 		} 
 		
+	}
+	
+	public static boolean esNegativo(int n1) {
+		if (n1 < 0) {
+			return true;
+		}else {
+			return false;
+		}
 	}
 }
